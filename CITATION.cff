@@ -1,6 +1,6 @@
 
 cff-version: 1.2.0
-title: EVENTBASELINE - Correct Event Study After XTHDIDREGRESS
+title: E2FRAME - Save regression coefficients and confidence intervals in a frame
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -10,6 +10,6 @@ authors:
     family-names: 'Koren, Miklós (https://koren.mk)'
 identifiers:
   - type: url
-    value: 'https://github.com/codedthinking/eventbaseline'
-version: 0.7.2
-date-released: '2024-01-23'
+    value: 'https://github.com/codedthinking/e2frame'
+version: 0.1.0
+date-released: '2024-05-21'

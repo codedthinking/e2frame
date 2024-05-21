@@ -1,5 +1,5 @@
 FILES := $(shell cat files.txt)
-TARGET := eventbaseline.zip
+TARGET := e2frame.zip
 
 .PHONY: tag
 
@@ -10,7 +10,7 @@ tag:
 	git add $(FILES)
 	git commit -m "Version $(VERSION)"
 	git tag $(VERSION)
-eventbaseline.sthlp: README.md smcl.lua
+e2frame.sthlp: README.md smcl.lua
 	pandoc -f gfm -t smcl.lua $< > $@
 smcl.lua:
 	curl -sLo $@ "https://raw.githubusercontent.com/korenmiklos/pandoc-smcl/master/smcl.lua"

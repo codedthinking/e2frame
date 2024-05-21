@@ -1,0 +1,23 @@
+
+v 3
+
+d E2FRAME - Save regression coefficients and confidence intervals in a frame
+d
+d Authors: Koren, Miklós (https://koren.mk)
+d Support: 
+d 
+d `e2frame` saves the coefficients and confidence intervals of the last regression in a frame.
+d 
+d For details, see website:
+d https://github.com/codedthinking/e2frame
+d
+d Requires: Stata version 16
+d
+d Distribution-Date: 20240521
+d
+
+
+f stata.toc
+f e2frame.pkg
+f e2frame.ado
+f e2frame.sthlp

@@ -1,8 +1,4 @@
 stata.toc
-eventbaseline.pkg
-eventbaseline.ado
-eventbaseline.sthlp
-df.dta
-eventbaseline.do
-eventstudy_kink.png
-eventstudy_correct.png
+e2frame.pkg
+e2frame.ado
+e2frame.sthlp
